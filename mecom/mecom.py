@@ -8,7 +8,7 @@ import time
 
 # more special pip packages
 from serial import Serial
-from PyCRC.CRCCCITT import CRCCCITT
+from pycrc.CRCCCITT import CRCCCITT
 
 # from this package
 from .exceptions import ResponseException, WrongResponseSequence, WrongChecksum, ResponseTimeout, UnknownParameter
